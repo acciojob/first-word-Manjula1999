@@ -14,3 +14,11 @@ function firstWord(s) {
     }
     arr.push(s.charAt(i));
   }
+
+  return arr.join("").trim();
+}
+
+// Do not change the code below
+
+const s = prompt("Enter String:");
+alert(firstWord(s));
